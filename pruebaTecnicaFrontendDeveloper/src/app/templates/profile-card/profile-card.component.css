@@ -1,0 +1,17 @@
+.profileCard{
+    background-color: white;
+    background-image: linear-gradient(to bottom, white , #b5dfef);    
+    margin: 0;
+    width: 15%;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 0px;
+    box-shadow: -5px 5px 13px -3px rgb(0 0 0 / 75%);
+    text-align: center;
+    font-weight: bold;
+    color: #16617e;
+}
+
+img{
+    border-radius: 50%;
+}

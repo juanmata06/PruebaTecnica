@@ -1,0 +1,12 @@
+.sideBar{
+    margin: 1%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.input{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 0px;
+    box-shadow: -5px 5px 8px -1px rgb(0 0 0 / 75%);
+}
