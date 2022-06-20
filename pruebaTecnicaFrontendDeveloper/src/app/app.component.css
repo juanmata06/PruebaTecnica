@@ -9,3 +9,7 @@
 .col{
     padding: 0;
 }
+
+img:hover{
+    cursor: pointer;
+}

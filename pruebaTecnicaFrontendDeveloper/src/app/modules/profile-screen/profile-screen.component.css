@@ -9,3 +9,9 @@
 .col{
     padding: 0;
 }
+
+.home{
+    font-weight: bold;
+    width: 400px !important;
+    text-align: center;
+}

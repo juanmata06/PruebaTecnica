@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Contact } from 'src/app/logic/models/contact';
 
 @Component({
   selector: 'app-profile-card',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileCardComponent implements OnInit {
 
   constructor() { }
+
+  @Input() contact: Contact = {} as Contact;
 
   ngOnInit(): void {
   }

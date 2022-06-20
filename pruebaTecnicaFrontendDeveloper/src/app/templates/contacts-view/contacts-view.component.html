@@ -1,3 +1,5 @@
 <div class="container contactsView">
-    <app-profile-card></app-profile-card>
+    <div class="contactCard" *ngFor="let connection of connections">
+        <app-profile-card [contact]="connection" (click)="searchContact(connection.id)"></app-profile-card>
+    </div>
 </div>

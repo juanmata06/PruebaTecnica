@@ -1,3 +1,8 @@
 <div class="container contactList">
-hola
+    <div class="row" 
+    *ngFor="let contact of contactsNames" 
+    class="contactName"
+    (click)="searchContact(contact.id)">
+        {{contact.name}}
+    </div>
 </div>

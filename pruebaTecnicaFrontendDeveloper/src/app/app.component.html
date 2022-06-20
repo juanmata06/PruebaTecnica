@@ -1,11 +1,16 @@
 <div class="container">
+  <div>
+    <img src="https://www.squarepoint.es/wp-content/uploads/2013/11/logo-square-point.jpg" 
+        alt="SquarePoint" width="200px" height="50px" (click)="goHome()" style="margin-left: 2%;">
+  </div>
+  <br>
   <div class="row">
     <div class="col-3">
       <app-side-bar></app-side-bar>
     </div>
     <div class="col-9">
-      <app-profile-screen></app-profile-screen>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
-<router-outlet></router-outlet>
+<!--<router-outlet></router-outlet>-->

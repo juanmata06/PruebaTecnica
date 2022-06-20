@@ -1,0 +1,8 @@
+{
+    "/contactos.json/*": {
+        "target": "https://fakecontactsspq.z6.web.core.windows.net",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}

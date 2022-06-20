@@ -9,6 +9,7 @@ import { ProfileScreenComponent } from './modules/profile-screen/profile-screen.
 import { ProfileViewComponent } from './templates/profile-view/profile-view.component';
 import { ContactsViewComponent } from './templates/contacts-view/contacts-view.component';
 import { ContactsListComponent } from './templates/contacts-list/contacts-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactsListComponent } from './templates/contacts-list/contacts-list.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
